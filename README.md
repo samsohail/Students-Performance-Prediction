@@ -8,14 +8,14 @@ This project aims to predict students' scores in mathematics, reading, and writi
 
 The dataset contains information on students' backgrounds and their academic performance in three subjects: mathematics, reading, and writing. The attributes in the dataset include:
 
-1. Gender: The student's gender
-2. Race/Ethnicity: The racial or ethnic group the student belongs to
-3. Parental Level of Education: The highest educational level attained by the student's parents or guardians
-4. Lunch: Type of lunch the student receives (standard, free/reduced)
-5. Test Preparation Course: Whether the student completed a test preparation course
-6. Math Score: Performance on math assessments
-7. Reading Score: Performance on reading assessments
-8. Writing Score: Performance on writing evaluations
+1. **Gender**: The student's gender
+2. **Race/Ethnicity**: The racial or ethnic group the student belongs to
+3. **Parental Level of Education**: The highest educational level attained by the student's parents or guardians
+4. **Lunch**: Type of lunch the student receives (standard, free/reduced)
+5. **Test Preparation Course**: Whether the student completed a test preparation course
+6. **Math Score**: Performance on math assessments
+7. **Reading Score**: Performance on reading assessments
+8. **Writing Score**: Performance on writing evaluations
 
 Dataset URL: [Kaggle - Students Performance in Exams](https://www.kaggle.com/datasets/spscientist/students-performance-in-exams)
 
@@ -25,13 +25,13 @@ The objective of this project is to examine the factors that impact students' ac
 
 ## Models Used
 
-- Linear Regression: A basic regression model used for prediction, providing insights into the relationship between input features and student scores.
-- Random Forest: A robust machine learning model used for prediction, offering improved accuracy and flexibility compared to linear regression.
-- Gradient Boosting: A powerful ensemble method that builds strong predictive models through the sequential correction of errors made by weak models.
+- **Linear Regression**: A basic regression model used for prediction, providing insights into the relationship between input features and student scores.
+- **Random Forest**: A robust machine learning model used for prediction, offering improved accuracy and flexibility compared to linear regression.
+- **Gradient Boosting**: A powerful ensemble method that builds strong predictive models through the sequential correction of errors made by weak models.
 
 ## Results
 
-- Linear Regression:
+- **Linear Regression**:
   - Train MSE: 1.13e-28
   - Test MSE: 9.65e-29
   
